@@ -68,4 +68,35 @@ The processor supports machine-mode exceptions and interrupts:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/RISC-V_SingleCycleWithCSR.git
+   git clone https://github.com/Moizadlh/RISC-V_SingleCycleWithCSR.git
+2. Open in VSCode
+
+    --Open the project folder in Visual Studio Code.
+
+    --Ensure you have a SystemVerilog extension installed (for syntax highlighting and code navigation).
+
+3. Compile the Design
+
+    --Use your preferred HDL simulator (ModelSim, Vivado, or others) to compile the SystemVerilog files.
+
+4. Run the Simulation
+
+    --Execute the provided testbench to simulate the processor.
+
+    --This will demonstrate instruction execution, CSR operations, and exception handling.
+
+5. Visualize Waveforms
+
+    --Open the generated waveform file in GTKWave to observe signals and processor behavior.
+
+6. Experiment
+
+    --Modify or add RISC-V instructions in the testbench to explore:
+
+        ALU operations
+        
+        Load/Store instructions
+        
+        Branches and jumps
+        
+        CSR read/write and exception handling
