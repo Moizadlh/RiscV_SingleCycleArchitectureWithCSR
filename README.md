@@ -45,13 +45,12 @@ The datapath of the single-cycle processor consists of:
 
 ## Supported Instructions
 
-- **Integer instructions**: ADD, SUB, AND, OR, XOR, SLL, SRL, SRA, SLT, SLTU
+- **Integer(Ray) instructions**: ADD, SUB, AND, OR, XOR, SLL, SRL, SRA, SLT, SLTU
 - **Immediate instructions**: ADDI, ANDI, ORI, XORI, SLTI, SLTIU, SLLI, SRLI, SRAI
 - **Load/Store instructions**: LB, LH, LW, LBU, LHU, SB, SH, SW
 - **Branch instructions**: BEQ, BNE, BLT, BGE, BLTU, BGEU
 - **Jump instructions**: JAL, JALR
 - **CSR instructions**: CSRRW, CSRRS, CSRRC, CSRRWI, CSRRSI, CSRRCI
-- **System instructions**: ECALL, EBREAK
 
 ---
 
